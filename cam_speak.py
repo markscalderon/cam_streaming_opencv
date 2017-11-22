@@ -4,11 +4,11 @@ import socket
 
 ### based on https://github.com/chenxiaoqino/udp-image-streaming
 
-UDP_IP = "127.0.0.1"
+UDP_IP = "172.43.1.82" #ip of listen
 UDP_PORT = 10000
 ENCODE_QUALITY = 80
 PACK_SIZE = 4096
-FRAME_INTERNAL = (1000/30)
+FRAME_INTERNAL = (1000/2)
 
 print("UDP target ip: ", UDP_IP)
 print("UDP target port: ", UDP_PORT)

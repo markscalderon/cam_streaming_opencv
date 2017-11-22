@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import socket
 
-UDP_IP = "127.0.0.1"
+UDP_IP = "172.43.1.28" ##local ip
 UDP_PORT = 10000
 ENCODE_QUALITY = 80
 PACK_SIZE = 4096
